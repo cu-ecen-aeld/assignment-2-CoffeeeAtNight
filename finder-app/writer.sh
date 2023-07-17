@@ -23,7 +23,7 @@ echo "${writestr}" > "${writefile}"
 
 if [ ! -e "${writefile}" ]
 then
-    echo "File was not created"
+    echo "File was not created."
     exit 1
 fi
 
